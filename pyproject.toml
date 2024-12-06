@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "flyio-fastapi-poetry-template"
+version = "0.1.0"
+description = "Template to run fast api in fly.io with poetry as env manager"
+authors = ["Giorgio Segalla <giorgiosgl1997@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.6"
+uvicorn = "^0.32.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
