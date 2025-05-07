@@ -48,3 +48,5 @@ $ curl http://localhost:3001
     ```
 
     Follow the prompts to complete the setup.
+
+4. To automate the deploy with each push, you have to add a token to the secrets of the repo.
